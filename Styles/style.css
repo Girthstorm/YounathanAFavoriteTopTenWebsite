@@ -1,0 +1,4 @@
+.center-buttons ul {
+    display: flex;
+    justify-content: center;
+}
