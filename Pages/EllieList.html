@@ -1,81 +1,257 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ellie's Top 10</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../Styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <!-- Start Nav Bar -->
-    <nav class="navbar  nav-color">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../Index.html">
-            <img src="../Assets/logo.png" alt="Logo" width="77" height="77" class="d-inline-block align-text-top">
-          </a>
-          <ul class="nav mx-auto paddingTime">
-            <li class="nav-item paddingTime">
-                <a href="../Pages/EllieList.html"><button type="button" class="btn btn-outline-primary btn-txt btn-color">Ellie's List</button></a>
-            </li>
-            <li class="nav-item">
-                <a href="../Pages/AidanList.html"><button type="button" class="btn btn-outline-primary btn-txt btn-color">Aidan's List</button></a>
-            </li>
-          </ul>
-        </div>
-    </nav>
-    <!-- End Nav Bar -->
-    <!-- Carousel -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Top 10 Anime | Title Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../Styles/style.css">
+  <link rel="stylesheet" href="../Styles/aidan.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Josefin+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <style>
+    .center-buttons {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Start Navbar -->
+  <nav class="navbar sticky-top nav-color">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../Index.html">
+        <img src="../Assets/logo.png" alt="Logo" width="77" height="77" class="d-inline-block align-text-top">
+      </a>
+      <ul class="nav mx-auto paddingTime">
+        <li class="nav-item paddingTime">
+          <a href="../Pages/EllieList.html"><button type="button"
+              class="btn btn-outline-primary btn-txt btn-color">Ellie's List</button></a>
+        </li>
+        <li class="nav-item">
+          <a href="../Pages/AidanList.html"><button type="button"
+              class="btn btn-outline-primary btn-txt btn-color">Aidan's List</button></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Start Title -->
+  <h1 class="AList-Title">Ellie’s Top 10 Anime</h1>
+  <!-- End Title -->
+
+  <!-- Start Carousel -->
+  <div class="carousel-container ">
     <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner" >
-
-          <div class="carousel-item active">
-            <img src="../Assets/Ellie's Images/tbhk.jpe" class="d-block w-100" alt="Toilet Bound Hanako Kun">
-          </div>
-          <div class="carousel-item">
-            <img src="../Assets/Ellie's Images/chainsaw.jpg" class="d-block w-100" alt="Chainsaw Man">
-          </div>
-          <div class="carousel-item">
-            <img src="../Assets/Ellie's Images/spyfamily.jpe" class="d-block w-100" alt="Spy x Family">
-          </div>
-          <div class="carousel-item">
-            <img src="../Assets/Ellie's Images/durarara.jpg" class="d-block w-100" alt="Durarara">
-          </div>
-          <div class="carousel-item">
-            <img src="../Assets/Ellie's Images/fullmetal.jpg" class="d-block w-100" alt="Fullmetal Alchemist">
-          </div>
-          <div class="carousel-item">
-            <img src="../Assets/Ellie's Images/bsd.jpg" class="d-block w-100" alt="Bungou Stray">
-          </div>
-          <div class="carousel-item">
-            <img src="../Assets/Ellie's Images/mobpsycho.jpg" class="d-block w-100" alt="Mob Psycho">
-          </div>
-          <div class="carousel-item">
-            <img src="../Assets/Ellie's Images/drstone.jpg" class="d-block w-100" alt="DrStone">
-          </div>
-          <div class="carousel-item">
-            <img src="../Assets/Ellie's Images/myhero.jpg" class="d-block w-100" alt="My Hero">
-          </div>
-          <div class="carousel-item">
-            <img src="../Assets/Ellie's Images/pokemon.jpg" class="d-block w-100" alt="Pokemon">
-          </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../Assets/Ellie's Images/tbhk.jpe" class="d-block w-100" alt="...">
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <img src="../Assets/Ellie's Images/chainsaw.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../Assets/Ellie's Images/spyfamily.jpe" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../Assets/Ellie's Images/durarara.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../Assets/Ellie's Images/fullmetal.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../Assets//Ellie's Images/bsd.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../Assets/Ellie's Images/mobpsycho.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../Assets/Ellie's Images/drstone.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../Assets/Ellie's Images/myhero.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../Assets/Ellie's Images/pokemon.jpg" class="d-block w-100" alt="...">
+        </div>
       </div>
-    <!-- Carousel -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- End Carousel -->
+
+  <!-- Start reviews -->
+  <div class="reviews-aidan">
+    <h3 id="top10">Top 10:</h3>
+    <h2>1. <span class="TBH">Toilet Bount Hanako Kun</span></h2>
+    <p>
+      The artstyle of this anime has to be one of the most charming and recognizable I’ve ever seen! The colors are
+      vibrant, and the character designs and world are filled with personality. The story itself is a wonderful balance
+      of fun and mystery, that genuinely makes me happy to watch.
+      Besides that, the whole mythological world this anime takes place in is AMAZING. It’s the perfect anime for people
+      like me who adore folklore. Every new mystery or strange world introduced is just as fun and interesting as the
+      last, that makes you want to continue reading just to learn about everything this anime’s world has to offer. The
+      characters are also wonderful for showing every facet the world has. The main trio, Hanako-kun, the supernatural,
+      who is a figure in mythology himself, a curious girl, and an exorcist boy. Every character in this series bounces
+      off each other wonderfully, and their personalities help to let the world they’re in really shine.</p>
+    <iframe class="vids" width="853" height="480" src="https://www.youtube.com/embed/dqAzXcjvbDc?si=x2ilxnM5Upq3acp6"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    <hr class="breakpoints">
+
+    <h2>2. <span class="ECSM">Chansaw Man</span></h2>
+    <p>Chainsaw Man was an extremely interesting anime that wasn’t like one I had seen before.
+      This anime is a trainwreck in slow motion, in the best way possible. The world itself is crazy, the stakes are
+      high, and you can visibly watch all of it wear down on the characters in real time. I think that’s what’s really
+      interesting about it, you get to watch the characters change. Especially Denji, who almost reads like a coming of
+      age story, as you watch him mature and figure out his place in a world he hasn’t been in before, and himself. I
+      don’t care if I’m reading too much into this I love the way Denji navigates the world and grows as a teenager
+      who’s only known the worst situations possible and has literally had nothing good for himself.
+      Anyway, the world is also filled with mystery, it’s interesting, and makes you want to read more. So many things
+      are introduced, and even things that aren’t directly introduced as mysteries are mysterious in the way they’re
+      shown to the viewer (Makima).
+      Also the devils are just objectively cool as heck. </p>
+    <iframe class="vids" width="853" height="480" src="https://www.youtube.com/embed/3PFagLd6Jh4?si=ur2-g9E8lkrXzmy0"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    <hr class="breakpoints">
+
+    <h2>3. <span class="SXF">Spy X Family</span></h2>
+    <p>This was the silliest premise for an anime ever and I loved every second of it. A spy dad, an assassin mom, and a
+      telepathic child. It seems like a lot, but it works together PERFECTLY. The family dynamic of this show is both
+      funny and adorable. They all have incredible chemistry with each other, which is especially displayed in the
+      action scenes, where each member of the family plays their own role and somehow helps in their own ways;
+      comedically, this is all without anyone else knowing that they’re doing it. Every character is strong by
+      themselves as well, so even outside the family dynamic, we can see the characters in their personal lives, and the
+      things that affect them as individuals. It’s not terribly deep or dramatic, but it doesn’t really need to be. It’s
+      a fun anime to watch and it makes me smile. </p>
+    <iframe class="vids" width="853" height="480" src="https://www.youtube.com/embed/AByn6WSVV04?si=WC3D_arclkNidI1K"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    <hr class="breakpoints">
+
+    <h2>4. <span class="DR">Durarara!!!</span></h2>
+    <p>Every single character in this anime is packed with personality. If you couldn’t tell by now, my favorite part of
+      any anime is the characters, and boy, does Durarara DELIVER with them. Not only by themselves, but the chemistry
+      they have with others, and the way each character has some sort of tie into the plot itself. It feels as if the
+      characters are moving the story by themselves. Rather than simply reacting to events out of their control, the
+      characters ARE the plot. Each and every one with clear visions and goals and actions, and those actions have a
+      ripple effect on the world. The eventual convergence of the characters’ stories on each other is all the more
+      satisfying because of it. And there’s folklore elements sprinkled in for added flavor. Watch Durarara this
+      instant.</p>
+    <iframe class="vids" width="853" height="480" src="https://www.youtube.com/embed/OO7fCjdhP48?si=pGwNg6j5bqYYMjZ2"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    <hr class="breakpoints">
+
+    <h2>5. <span class="FMA">Fullmetal Alchemist</span></h2>
+    <p>Shoutout to the infamous chimera dog scene.<br><br>
+
+      Anyway, this anime’s story is genuinely awesome. From the first episode, it was insane, and I was into it. I love
+      the rules presented with alchemy in this world that genuinely is important to the plot, making the world’s use of
+      magic even more interesting because the way it’s used isn’t just for typical, cool shonen anime fight reasons. It
+      has consequences and it impacts the story, it impacts our protagonist, I think that’s awesome.
+      <br><br>
+      The world in this anime is definitely its strong suit. The characters are also extremely entertaining and
+      sometimes a little scary. Love that.
+    </p>
+    <iframe class="vids" width="853" height="480" src="https://www.youtube.com/embed/usW1hqVjZLE?si=-zO_yJYdPZLs48g3"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    <hr class="breakpoints">
+
+    <h2>6. <span class="BSD">Bungou Stray Dogs</span></h2>
+    <p>First of all, I don’t know where the artistic decision to make most of the characters based heavily on famous
+      authors, but I think that’s really cool. And the way the anime has a little typewriter effect to present
+      exposition in the anime? That’s adorable, I love that theme Bungou Stray Dogs has going on.
+      <br><br>
+      Anyway! It’s a fun shonen anime. I love the sort of magic system they have going on, I think it’s really cool. The
+      character designs are recognizable and unique and the story is fun to watch. I like to watch it when I draw.
+    </p>
+    <iframe class="vids" width="853" height="480" src="https://www.youtube.com/embed/y2gA9iZ_Ofk?si=_w1tc3nuyGAsstQp"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    <hr class="breakpoints">
+
+    <h2>7. <span class="MS100">Mob Psycho 100</span></h2>
+    <p>To be honest, I’ve always loved the struggle of the characters, especially from Mob. It has such a realistic sort
+      of struggle, despite the supernatural, shonen elements, that honestly tie in really well to the realism within the
+      characters.<br>
+      The whole premise of Mob Psycho 100 is that he bottles up his emotions until the point he “explodes”. He feels
+      inadequate, despite the gifts he’s been born with, and any accomplishments he might achieve with it. Even if he
+      tries to improve, he feels as if he can’t. Honestly? Me too Mob.<br>
+      There were genuinely impactful scenes where we saw the emotional consequences of his internal struggles. The
+      people around him attempt to influence him, and many have their own struggles. Besides that, there are AMAZING
+      shonen moments which are comically well animated, and a unique artstyle to boot. And somehow that ties into the
+      whole vibe of the show and the story? I love it.
+      Also Reagan is peak character writing honestly.
+    </p>
+    <iframe class="vids" width="853" height="480" src="https://www.youtube.com/embed/ZKM4v0k6LOI?si=VSWc8TtnWlluezxl"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    <hr class="breakpoints">
+
+    <h2>8. <span class="DS">Dr. Stone</span></h2>
+    <p>Dr. Stone honestly had one of the most interesting premises I’ve ever heard. Humans essentially being taken back to the Stone Age, having to restart all the world’s progress in technology and innovation with only the knowledge of how you could get there.
+      <br><br>
+      This anime was also somehow, actually educational? I was interested in the story and all but I couldn’t help but be mostly intrigued by the science explained within the anime. The main character is an extremely intelligent scientist, which is definitely important to the world at hand, but we as the viewers get to actually see how everything he does works. It was really cool. I learned how to make gunpowder. Thanks, Dr. Stone.
+      <br><br>
+      There’s some drama in there, of course, and I think a couple crazy plot twists, but honestly I’m just here to watch these guys use science to rebuild the world. I may be a nerd but that’s unfathomably fun to see.</p>
+    <iframe class="vids" width="853" height="480" src="https://www.youtube.com/embed/gJOE2ddno6A?si=OqvaHwZR6Erya5Vz"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    <hr class="breakpoints">
+
+    <h2>9. <span class="EMHA">My Hero Academia</span></h2>
+    <p>What can I say? It’s a silly fun world with heroes!
+      It’s an entertaining show with so many loveable and unique characters, and the designs for each of them are unique and fun looking. Especially our main class, all of them are recognizable and there’s something fun about all of them. I’m pretty surprised how they could keep coming up with stuff because of the absolutely massive cast size in this show, but hey, there’s always some cool new quirks to have.</p>
+    <iframe class="vids" width="853" height="480" src="https://www.youtube.com/embed/aVjVV59bCFk?si=hIQun11jIzVYr6iL"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    <hr class="breakpoints">
+
+    <h2>10. <span class="PKM">Pokemon</span></h2>
+    <p>Maybe it was only for nostalgic purposes because I loved this anime when I was a kid and watched it every single day, but I re-watched Pokemon Indigo League again and it was genuinely hilarious. It’s simply fun to watch Ash on his journey, picking up friends and pokemon along the way, his episodic journeys are just fun and entertaining. Ash literally was the very best that no one ever was.
+    <br><br>
+    Pokemon is just awesome, I love Pokemon.</p>
+    <iframe class="vids" width="853" height="480" src="https://www.youtube.com/embed/vhfKbuZ5aq8?si=T5s4g6igGZkweVcs"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
