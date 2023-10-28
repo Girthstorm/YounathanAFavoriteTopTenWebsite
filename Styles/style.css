@@ -19,7 +19,7 @@ body {
 }
 
 .btn-txt {
-    font-size: 24px;
+    font-size: 42px;
 }
 
 
@@ -35,7 +35,7 @@ body {
     border-width: 2px;
 }
 
-/* Title Txt */
+
 .title-txt {
     color: white;
     text-align: center;
@@ -58,9 +58,140 @@ body {
    
 }
 
+.TBH{
+    color:rgb(165, 69, 69)
+}
+
+.ECSM{
+    color:rgb(188, 102, 56)
+}
+
+.SXF{
+    color:rgb(234, 188, 104)
+}
+
+.DR{
+    color:rgb(52, 137, 82)
+}
+
+.FMA{
+    color:rgb(89, 113, 191)
+}
+
+.BSD{
+    color:rgb(128, 84, 148)
+}
+
+.AList-Title {
+    font-size: 128px;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-container {
+   
+    margin: auto;
+    width: 80%;
+    
+    
+}
+
+.reviews-aidan {
+    color: #ffffff;
+    margin-top: 60px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+#top10 {
+    font-size: 96px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.reviews-aidan h2 {
+    font-size: 52px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.reviews-aidan p {
+    font-size: 38px;
+    font-family: 'Inter', sans-serif;
+}
+
+.breakpoints {
+    border: 10px solid rgb(73, 44, 236);
+    border-radius: 5px;
+}
+
+.MHA {
+    color: rgb(43, 118, 100);
+}
+
+.JJBA {
+    background-image: linear-gradient(to bottom, rgb(235,38,144), white );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.OP {
+    background-image: linear-gradient(to bottom, rgb(3,179,236), rgb(18, 99, 175) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.JJK {
+    background-image: linear-gradient(to bottom, rgb(42,19,21), rgb(73, 22, 21) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Hori {
+    color: rgb(100, 178, 220) ;
+}
+
+.Toni {
+    color: rgb(229, 10, 126)
+}
+
+.FMAB {
+    background-image: linear-gradient(to bottom, rgb(125,127,130), rgb(222, 223, 227) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.LS {
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(236, 0, 139);
+}
+
+.MLS {
+    color: rgb(247, 173, 206) ;
+}
 
 
 
+@media screen and (max-width: 1500px) {
+    .reviews-aidan {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .reviews-aidan h2 {
+        font-size: 40px;
+    }
+    .reviews-aidan p {
+        font-size: 24px;
+    }
+    .vids {
+        width: 560px;
+        height: 315px;
+    }
+    .btn-txt {
+        font-size: 24px;
+    }
+}
 
 
 
