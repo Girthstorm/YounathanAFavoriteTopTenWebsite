@@ -131,12 +131,14 @@ body {
 
 .JJBA {
     background-image: linear-gradient(to bottom, rgb(235,38,144), white );
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .OP {
     background-image: linear-gradient(to bottom, rgb(3,179,236), rgb(18, 99, 175) );
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -144,6 +146,7 @@ body {
 
 .JJK {
     background-image: linear-gradient(to bottom, rgb(42,19,21), rgb(73, 22, 21) );
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -158,6 +161,7 @@ body {
 
 .FMAB {
     background-image: linear-gradient(to bottom, rgb(125,127,130), rgb(222, 223, 227) );
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
